@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #aa998b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.invitation-card{
+    background-color: #a33131;
+  border: 2px solid #e0bfb8; /* Soft pink border */
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+.date, .location {
+  color: #1a0101;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.message {
+  color: #ebd9d2;
+  font-size: 20px;
+  margin-top: 20px;
+}
